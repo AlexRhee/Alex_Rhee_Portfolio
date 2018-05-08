@@ -1,0 +1,18 @@
+#myName {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 55px
+}
+
+.hero-item {
+    text-align: right;
+    margin-right: 175px;
+}
+
+#heroContainer {
+    color: white
+}
+
+.emailItem {
+    margin-bottom: 100px !important;
+}

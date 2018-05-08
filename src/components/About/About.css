@@ -1,0 +1,43 @@
+#myName {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 55px
+}
+
+.hero-item {
+    text-align: right;
+    margin-right: 175px;
+}
+
+#heroContainer {
+    color: white
+}
+
+.who {
+    text-align: center !important;
+    justify-content: center !important;
+    margin-left: 100px !important;
+    margin-top: 75px !important;
+    margin-bottom: 100px !important;
+}
+
+.aboutMe {
+    text-align: left !important;
+    justify-content: center !important;
+    margin-left: 100px !important;
+    margin-top: 75px !important;
+    margin-bottom: 25px !important;
+    margin-right: 100px !important;
+}
+
+.aboutC {
+    background-color: #f9f9f9;
+}
+
+div {
+    color: #114E59
+}
+
+.header {
+    color: #114E59 !important;
+}
