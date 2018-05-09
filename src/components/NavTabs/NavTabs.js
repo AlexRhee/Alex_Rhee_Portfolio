@@ -28,17 +28,17 @@ const NavTabs = () => (
     <a className="item" onClick={scrollAbout}>
     About
     </a>
-    <a className="item" onClick={scrollExperience}>
-    Experience
-    </a>
-    <a className="item" onClick={scrollEducation}>
-    Education
+    <a className="item" onClick={scrollPortfolio}>
+    Portfolio
     </a>
     <a className="item" onClick={scrollSkills}>
     Skills
     </a>
-    <a className="item" onClick={scrollPortfolio}>
-    Portfolio
+    <a className="item" onClick={scrollEducation}>
+    Education
+    </a>
+    <a className="item" onClick={scrollExperience}>
+    Experience
     </a>
     {/* <button className="item ui primary basic button">
     Download CV

@@ -24,8 +24,8 @@ class App extends React.Component {
         <About />
         <Portfolio />
         <Skills />
-        <Experience />
         <Education />
+        <Experience />
         <Footer />
       </div>
     );

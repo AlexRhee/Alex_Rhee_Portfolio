@@ -4,7 +4,7 @@ import { Grid, Header} from 'semantic-ui-react'
 
 const Experience = () => (
 
-  <Grid columns id="experienceSection">
+  <Grid className='aboutC' columns id="experienceSection">
 
 
 
