@@ -7,7 +7,7 @@ const About = () => (
   <Grid columns className='aboutC' id='aboutSection'>
     <Grid.Row>
       <Grid.Column width={4}>
-      <Header className="who" size='huge' textAlign='center'>Who I am and What I do.</Header>
+      <Header size ="large" className="who" textAlign='center'>About Me</Header>
       </Grid.Column>
       <Grid.Column width={12}>
       <div className="aboutMe">
@@ -18,8 +18,6 @@ const About = () => (
       </div>
       </Grid.Column>
     </Grid.Row>
-
-
   </Grid>
     
     

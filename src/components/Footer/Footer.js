@@ -21,7 +21,7 @@ const Footer = () => (
     <Grid.Row>
       <Grid.Column width={4}>
         <div className="footerSection"><center>
-          <h2 className="footerEmail">AlexSRhee@gmail.com</h2>
+          <h2 className="footerEmail">alexsrhee@gmail.com</h2>
         </center>
         </div>
       </Grid.Column>

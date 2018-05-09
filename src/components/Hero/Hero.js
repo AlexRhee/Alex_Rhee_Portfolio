@@ -18,7 +18,7 @@ const Hero = () => (
   <h2 className="hero-item"> Full Stack Web Developer </h2>
   <h2 className="hero-item"> Los Angeles, California </h2>
 
-  <h4 className="hero-item"> arheeee@gmail.com </h4>
+  <h4 className="hero-item"> alexsrhee@gmail.com </h4>
   <div className="hero-item emailItem">
     <Icon bordered link inverted size='large' color="blue" name="linkedin" onClick={linkedin}/>
     <Icon bordered link inverted size='large' name="github" onClick={github}/>

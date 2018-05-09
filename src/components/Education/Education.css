@@ -4,9 +4,18 @@
 }
 
 .workXP {
-        text-align: center !important;
+        text-align: left !important;
         justify-content: center !important;
         margin-left: 100px !important;
         margin-top: 25px !important;
         margin-bottom: 0px !important;
 }
+
+#skillsSection {
+    margin-bottom: 25px;
+}
+
+.lastItem {
+    padding-bottom: 25px;
+}
+

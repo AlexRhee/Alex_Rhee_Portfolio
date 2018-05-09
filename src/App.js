@@ -15,16 +15,17 @@ class App extends React.Component {
     return (
       <div>
         <Wrapper>
-          <div>
-            <NavTabs />
+          <div className="heroArea">
+            
             <Hero />
+            <NavTabs />
           </div>
         </Wrapper>
         <About />
+        <Portfolio />
+        <Skills />
         <Experience />
         <Education />
-        <Skills />
-        <Portfolio />
         <Footer />
       </div>
     );

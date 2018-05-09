@@ -1,18 +1,25 @@
 #myName {
-    margin-top: 80px;
-    margin-bottom: 40px;
-    font-size: 55px
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 55px;
+    font-family: 'PT Serif', serif;
 }
 
 .hero-item {
     text-align: right;
     margin-right: 175px;
+    font-family: 'PT Serif', serif;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: lighter;
 }
 
 #heroContainer {
-    color: white
+    color: white;
+    font-family: 'PT Serif', serif;
 }
 
 .emailItem {
+    margin-top: 10px;
     margin-bottom: 100px !important;
 }

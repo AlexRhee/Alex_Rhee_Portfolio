@@ -1,5 +1,6 @@
 import React from "react";
 import './NavTabs.css';
+import { Menu } from 'semantic-ui-react'
 
 var scrollAbout = () => (
   document.getElementById("aboutSection").scrollIntoView()
@@ -23,10 +24,7 @@ var scrollPortfolio = () => (
 
 
 const NavTabs = () => (
-  <div className="ui menu borderless inverted" id="navBar">
-  <span className="item">
-  Alex Rhee Portfolio
-  </span>
+  <Menu ui menu borderless inverted id="navBar">
     <a className="item" onClick={scrollAbout}>
     About
     </a>
@@ -45,7 +43,7 @@ const NavTabs = () => (
     {/* <button className="item ui primary basic button">
     Download CV
     </button> */}
-  </div>
+  </Menu>
     
     
 );

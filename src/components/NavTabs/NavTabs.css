@@ -1,4 +1,10 @@
 #navBar {
     opacity: 90%;
     text-align: right;
+    margin-bottom: 0px !important;
+}
+.heroArea {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    width: 100% !important;
 }
