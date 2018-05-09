@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import './Experience.css';
-import { Grid, Header, Divider, Segment } from 'semantic-ui-react'
+import { Grid, Header} from 'semantic-ui-react'
 
 const Experience = () => (
 
@@ -57,7 +56,7 @@ const Experience = () => (
       </Grid.Column>
     </Grid.Row>
 
-    <Divider fitted/>
+
   </Grid>
     
     

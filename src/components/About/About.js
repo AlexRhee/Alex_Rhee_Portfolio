@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import './About.css';
-import { Grid, Header, Divider } from 'semantic-ui-react'
+import { Grid, Header } from 'semantic-ui-react'
 
 const About = () => (
 
@@ -12,15 +11,15 @@ const About = () => (
       </Grid.Column>
       <Grid.Column width={12}>
       <div className="aboutMe">
-      I am an experienced full stack web and software engineer. With dozens of projects under my belt I am confident in leading any project from specs to production. One skill that I find very valuable is the ability to design and architect software while forseeing any possible issues we may face further down the line. Another skill set I value is the ability to jump into unfamiliar code or enviornments and be able to debug or add features with ease.
+      I am an up and coming full stack web and software developer. With several varied projects under my belt I am confident in leading or collaborating on any project from specs to production. I pride myself on my ability to adapt to the situation around me and to learn quicky and on the fly if needed. Software Development is my passion.
       <br/>
       <br/>
-      The goal with every project is to deliver the best product with timeliness and quality.
+      My goal is to always provide high quality work while meeting all given project timelines.
       </div>
       </Grid.Column>
     </Grid.Row>
 
-      <Divider fitted/>
+
   </Grid>
     
     

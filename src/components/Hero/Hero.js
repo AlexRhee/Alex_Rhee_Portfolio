@@ -1,6 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import './Hero.css';
+import { Icon } from 'semantic-ui-react'
+
+var linkedin = () => {
+  return (
+  window.open("https://www.linkedin.com/in/arhee/")
+)}
+
+var github = () => {
+  return (
+  window.open("https://github.com/AlexRhee")
+)}
 
 const Hero = () => (
   <div className="ui container" id="heroContainer">
@@ -8,7 +18,11 @@ const Hero = () => (
   <h2 className="hero-item"> Full Stack Web Developer </h2>
   <h2 className="hero-item"> Los Angeles, California </h2>
 
-  <h4 className="hero-item emailItem"> arheeee@gmail.com </h4>
+  <h4 className="hero-item"> arheeee@gmail.com </h4>
+  <div className="hero-item emailItem">
+    <Icon bordered link inverted size='large' color="blue" name="linkedin" onClick={linkedin}/>
+    <Icon bordered link inverted size='large' name="github" onClick={github}/>
+  </div>
 
   </div>
     

@@ -1,0 +1,11 @@
+.footer {
+    background: url("https://ak9.picdn.net/shutterstock/videos/13027199/thumb/11.jpg?i10c=img.resize(height:160)");
+    color: white !important;
+}
+
+.footerSection {
+    color: white !important;
+    text-align: center;
+    margin: 50px;
+    padding: 25px;
+}

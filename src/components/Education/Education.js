@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import './Education.css';
-import { Grid, Header, Divider, Segment } from 'semantic-ui-react'
+import { Grid, Header} from 'semantic-ui-react'
 
 const Education = () => (
 
@@ -43,7 +42,7 @@ const Education = () => (
       </Grid.Column>
     </Grid.Row>
 
-    <Divider fitted/>
+
   </Grid>
     
     
