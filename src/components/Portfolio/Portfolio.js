@@ -4,7 +4,7 @@ import { Grid, Header, Button, Image, Modal } from 'semantic-ui-react'
 
 var tripshare = () => {
   return (
-  window.open("https://project3scratchmap.herokuapp.com/")
+  window.open("https://tripshareapp.herokuapp.com/")
 )}
 
 var thelist = () => {
