@@ -24,7 +24,7 @@ var scrollPortfolio = () => (
 
 
 const NavTabs = () => (
-  <Menu ui menu borderless inverted id="navBar">
+  <Menu fluid widths={5} ui menu borderless inverted id="navBar">
     <a className="item" onClick={scrollAbout}>
     About
     </a>

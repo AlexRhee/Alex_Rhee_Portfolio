@@ -34,9 +34,10 @@ const Portfolio = () => (
       </Grid.Column>
       <Grid.Column width={4}>
         <div className="jobDetails">         
-            <h4 onClick={tripshare} className="dateRange">TripShare</h4>
+            <h4 onClick={tripshare} className="dateRange links">TripShare</h4>
           <br />
-          <img alt="tripshare" onClick={tripshare} className="projectImage" wrapped size='large' src={require('./tripsharefront.png')} />
+          <img alt="tripshare" onClick={tripshare} className="projectImage links" wrapped size='large' src={require('./tripsharefront.png')} />
+          <br />
           <Modal size="fullscreen" trigger={<Button>Info</Button>}>
             <Modal.Header>TripShare</Modal.Header>        
             <Modal.Content image>
@@ -55,9 +56,10 @@ const Portfolio = () => (
       <Grid.Column width={4}>
         <div className="jobDetails">
         
-            <h4 onClick={thelist} className="dateRange">The List</h4>
+            <h4 onClick={thelist} className="dateRange links">The List</h4>
           <br />
-          <img alt="thelist" onClick={thelist} className="projectImage" wrapped size='medium' src={require('./thelistlogo.png')} />
+          <img alt="thelist" onClick={thelist} className="projectImage links" wrapped size='medium' src={require('./thelistlogo.png')} />
+          <br />
           <Modal size="fullscreen" trigger={<Button>Info</Button>}>
             <Modal.Header>The List</Modal.Header>           
             <Modal.Content image>
@@ -76,9 +78,10 @@ const Portfolio = () => (
       <Grid.Column width={4} className="lastItem">
         <div className="jobDetails">
         
-            <h4 onClick={pairit} className="dateRange">Pair-It</h4>
+            <h4 onClick={pairit} className="dateRange links">Pair-It</h4>
           <br />
-          <img alt="pairit" onClick={pairit} className="projectImage" size='medium' src={require('./Pairit.jpg')} />
+          <img alt="pairit" onClick={pairit} className="projectImage links" size='medium' src={require('./Pairit.jpg')} />
+          <br />
           <Modal size="fullscreen" trigger={<Button>Info</Button>}>
             <Modal.Header>Pair-It</Modal.Header>
             <Modal.Content image>
